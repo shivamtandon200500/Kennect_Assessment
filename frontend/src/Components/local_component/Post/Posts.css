@@ -1,0 +1,96 @@
+.help_btn{
+    width: 22%;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.add_post{
+    padding: 10px;
+    border: 1px solid #ffa94e;
+    background-color: #ffffff;
+    color: #ffa94e;
+}
+
+.add_post:hover{
+    background-color: #ffa94e;
+    color: #ffffff;
+}
+
+.yy:hover{
+    background-color: red;
+    color: #ffffff !important;
+}
+
+.post_add > input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e9e9e9;
+}
+
+.post_add > textarea{
+    min-height: 150px;
+    padding: 5px;
+}
+
+.help_btn > svg{
+    transform: scale(2);
+}
+
+.help_btn > svg:hover{
+    cursor: pointer;
+}
+
+.help_btn > svg:nth-child(1){
+    fill: red;
+}
+
+.help_btn > svg:nth-child(2){
+    fill: rgb(31, 217, 31);
+}
+
+.Comment_section > input{
+    width: 85%;
+    padding: 8px;
+    border-right: none;
+    border: 1px solid #e9e9e9;
+}
+
+.Comment_section > input:focus{
+    outline: none !important;
+    border:1px solid #aeacac;
+}
+
+.Comment_section > button{
+    width: 15%;
+    padding: 8px;
+    border: 1px solid #e9e9e9;
+    background-color: #ffffff;
+}
+
+.Comment_section > button > svg{
+    fill: rgb(31, 217, 31);
+}
+
+/* CircularLoader.css */
+.loader {
+    position: relative;
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    margin: 0 auto;
+  }
+  
+  .circular {
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgba(0, 0, 0, 0.2); /* Transparent border */
+    border-top: 4px solid #3498db; /* Loader color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

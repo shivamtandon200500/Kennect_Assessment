@@ -1,0 +1,378 @@
+.sign_in_forget_password {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--desktop-text);
+    /* identical to box height */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FF7253;
+    margin-top: -15px;
+    margin-bottom: 20px;
+  }
+  .form_register_button:hover{
+    /* background-color: #ffffff !important; */
+    /* box-shadow: 0px 10px 15px rgba(97, 56, 4, 0.4); */
+    color: white!important;
+    /* transform: translateY(-2px); */
+  }
+  
+  .form_register_button:focus{
+    box-shadow: none;
+  }
+  /* .form_login_button:hover{
+    background-color: transparent !important;
+    box-shadow: 0px 10px 15px rgba(97, 56, 4, 0.4);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+  } */
+  .signin_modal_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .modal_password_reset {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .signup_container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+  }
+  
+  .signup_form_side{
+    width: 65%;
+    max-width: 600px;
+  }
+  
+  .signup_image_side {
+    flex: 0.5;
+  }
+  
+  .signup_image_side img {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .OTP-span:hover{
+    /* transform: translateY(-2px); */
+    color: #fd7e14;
+  }
+  .signup_form_side_outer {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup_form_side_heading {
+    font-family: "Trirong";
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--desktop-heading);
+    display: block;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup_form_side_form form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form_side_mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .form_gender_boxes {
+    display: flex;
+  }
+  
+  .signup_form_side_form form input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #878787;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .signupPagePasswordVisibleButton:focus-visible{
+    outline: none;
+  }
+  
+  .signupPagePasswordVisibleButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    border: none;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .signup_form_side_form form input::placeholder {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--desktop-text);
+    display: flex;
+    align-items: center;
+    color: #878787;
+  }
+  
+  .form_mobile_number_verify {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--desktop-text);
+    display: flex;
+    align-items: center;
+    color: #8a5b40;
+    margin-bottom: 25px;
+  }
+  
+  .form_mobile_number_verify > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .form_mobile_number_verify > div >.sendOtp{
+    margin-bottom: -3px !important;
+  }
+  
+  .form_mobile_number_verify > .resend-otp {
+    font-size: var(--desktop-subtext);
+  }
+  
+  .form_gender {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--desktop-text);
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .gender_boxes {
+    background: transparent;
+    padding: 10px 30px;
+    margin-right: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid #878787;
+  }
+  
+  .gender_boxes:hover {
+    color: #ebebeb;
+    background: #000000;
+  }
+  
+  .gender_boxes:active {
+    color: #ebebeb;
+    background: #000000;
+  }
+  
+  .gender_boxes_active {
+    color: #ebebeb;
+    background: #000000;
+  }
+  
+  .otherSignInOptions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otherSignInIcons{
+    max-width: 50px;
+  }
+  .otherSignInIcons:first-child{
+    margin-right: 25px;
+  }
+  .otherSignInIcons:last-child{
+    margin-left: 25px;
+  }
+  
+  .form_terms {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--desktop-text);
+    display: block;
+    text-align: right;
+    color: #878787;
+    margin-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .plypicker-link{
+    color: #FF7253
+  }
+  .plypicker-link:hover{
+    color: #FF7253
+  }
+  
+  .form_register_button {
+    display: flex;
+    border-radius: 0;
+    align-items: center;
+    justify-content: center;
+    background: #0a5b99 !important;
+    padding: 10px 50px !important;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff !important;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .form_login_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 10px 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    ;
+    color: #000000;
+    border: 1px solid #FF7703;
+    margin-top: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .signup_image_side {
+      flex: 0.5;
+    }
+  
+    .signup_form_side_outer {
+      flex: 0.5;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .signup_form_side_outer {
+      flex: 1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .signup_image_side img{
+      display: none;
+    }
+  
+    .form_login_button,
+    .sign_in_forget_password {
+      color: black !important;
+    }
+  
+  
+    .signup_form_side_form form input,
+    .form_login_button {
+      background: transparent;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .form_mobile_number_input,
+    .form_mobile_number_verify {
+      flex: 0.5;
+    }
+  
+    .form_mobile_number_input input {
+      width: 100%;
+    }
+  
+    .form_login_button {
+      padding: 10px 10px;
+    }
+  
+    .signup_form_side_heading {
+      font-size: var(--tablet-heading);
+      
+    }
+  
+    .signup_form_side_form form input::placeholder,
+    .form_mobile_number_verify,
+    .form_gender {
+      font-size: var(--desktop-text);
+      ;
+    }
+  
+    .gender_boxes {
+      padding: 10px 15px;
+      margin-right: 15px;
+    }
+  
+    .sign_in_forget_password,
+    .form_terms {
+      font-size: 14px;
+      
+    }
+  
+    .form_register_button,
+    .form_login_button {
+      font-size: var(--desktop-text);
+      ;
+    }
+  
+    .signup_form_side_outer {
+      flex: 1;
+      width: 100%;
+    }
+  
+    .signup_container {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .signup_form_side {
+      width: 80%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    .signin_container::before {
+      background-image: url("https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80");
+    }
+    .sign_in_forget_password{
+      font-size: var(--tablet-text);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .modal_password_reset {
+      font-size: 14px; 
+    }
+    .sign_in_forget_password{
+      font-size: var(--mobile-text);
+    }
+  }
+  
